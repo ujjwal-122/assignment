@@ -1,0 +1,40 @@
+.users-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-card img {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.user-card h4 {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.user-buttons button {
+  margin-left: 10px;
+}
+
+.edit-btn {
+  background: #ffc107;
+  color: white;
+}
+
+.delete-btn {
+  background: #dc3545;
+  color: white;
+}
